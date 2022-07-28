@@ -1,0 +1,122 @@
+.container {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.container1 {
+  background-image: url("images/pattern-bg.png");
+  min-height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#map {
+  height: 600px;
+  z-index: 0;
+}
+
+.container-a {
+  display: grid;
+  justify-content: center;
+}
+
+.main-header {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.container-b {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  width: 358px;
+}
+
+input[type=text] {
+  background: white;
+  height: 32px;
+  border-radius: 15px 0px 0px 15px;
+  text-align: start;
+  width: 150%;
+  padding-left: 13px;
+  border: none;
+}
+
+.img-container {
+  cursor: pointer;
+  background: grey;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+}
+
+img {
+  height: 10px;
+  width: 10px;
+}
+
+.container-c {
+  display: flex;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+.container-d {
+  border-radius: 25px;
+  width: 60%;
+  position: absolute;
+  margin-top: 73px;
+  display: flex;
+  z-index: 10;
+  background-color: white;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ip {
+  padding: 1px;
+  margin-right: 40px;
+  height: 30px;
+}
+
+.css-ip {
+  border-right: 1px solid black;
+  height: 20px;
+}
+
+.vl {
+  border-right: 1px solid black;
+  height: 30px;
+  margin: 0px -28px;
+}
+
+.border {
+  margin: -35px 22px;
+}
+
+.header-p-tag {
+  font-size: 14px;
+  color: gray;
+}
+
+#map {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=app.css.map */

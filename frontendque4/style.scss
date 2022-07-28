@@ -1,0 +1,206 @@
+@import "config";
+
+.container{
+  background: $primary-color;
+  height: 100vh;
+  display: grid;
+  grid-template-columns:repeat(4,170px) ;
+  grid-template-rows:170px 170px ;
+  grid-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+
+
+  h1{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .container1{
+    background: $play;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding-top: 30px;
+    border-radius: 25px;
+  }
+
+  .containerA{
+    height: 128px;
+    width: 170px;
+    background: $secondary-color;
+    margin-top: 45px;
+    border-radius: 8px 8px 25px 25px;
+  }
+  .p1{
+    margin-left: 18px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #9696a8;
+  }
+  a:hover{
+    color: white;
+  }
+
+  .jeremy-p-tag{
+    margin-top: 23px;
+    padding-left: 20px;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+  }
+
+  .jeremy-header{
+    margin-top: -14px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .image1{
+    width: 48px;
+    height: 47px;
+    margin-left: 20px;
+    border-radius:50%;
+    border: 3px solid white;
+  }
+  .container2{
+    background: $work;
+    border-radius: 16px;
+    position: relative;
+  }
+  .icon{
+    margin-left: 114px;
+     height: 50px;
+     width: 50px;
+  }
+  .containerB{
+    height: 133px;
+    width: 170px;
+    background: $secondary-color;
+    border-radius:16px;
+    margin-top: -16px;
+    position: absolute;
+  }
+  .data{
+      margin-left: 19px;
+  }
+  .icon-header1{
+       font-size: 13px;
+       font-weight: 400;
+       display: flex;
+       justify-content: space-around;
+       margin:15px -19px;
+     }
+
+  //.icons{
+  //  font-size: 10px;
+  //  font-weight: 400;
+  //  display: flex;
+  //  justify-content: space-between;
+  //}
+  .header-hours{
+    font-size: 29px;
+    font-weight: 400;
+  }
+  .data-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+  }
+
+  .container3{
+    background: $play;
+    border-radius: 16px;
+    position: relative;
+  }
+  .container4{
+    background: $study;
+    border-radius: 16px;
+    position: relative;
+  }
+  .container5{
+    background: $exercise;
+    border-radius: 16px;
+    position: relative;
+  }
+  .container6{
+    background: $social;
+    border-radius: 25px;
+    position: relative;
+  }
+  .container7{
+    background: $self;
+    border-radius: 16px;
+    position: relative;
+  }
+
+}
+
+@media (max-width:768px){
+  .container{
+    height: 100%;
+       grid-template-columns: 230px;
+       grid-template-rows:repeat(7,150px);
+    .container1{
+       grid-row-start: 1;
+      grid-row-end: 2;
+      flex-direction: row;
+      position: relative;
+    }
+    .jeremy-header{
+      font-size: 18px;
+      margin-top: -10.5px;
+    }
+    .jeremy-p-tag{
+      font-size: 12px;
+      margin-top: 0;
+    }
+    .image1{
+      width: 40px;
+      height: 40px;
+    }
+    .containerA{
+       position: absolute;
+      width: 230px;
+      height: 57px;
+      margin-top: 64px;
+    }
+    .p1{
+      margin-left: 0;
+      margin-top: 5px;
+      display:flex;
+      justify-content: space-evenly;
+    }
+
+    .icon{
+      margin-left: 180px;
+      height: 50px;
+      width: 50px;
+    }
+    .containerB{
+      height: 113px;
+      width: 230px;
+      background: $secondary-color;
+      border-radius:16px;
+      margin-top: -16px;
+      position: absolute;
+    }
+    .data{
+      display: flex;
+       margin-top: -14px;
+       justify-content: space-evenly;
+    }
+    .header-hours{
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .data-p{
+      font-size: 14px;
+    }
+  }
+}
+
