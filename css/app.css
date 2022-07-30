@@ -231,6 +231,16 @@ body {
   margin-top: 200px;
   scroll-margin-top: 7rem;
 }
+.container-4 .button-submit {
+  background: white;
+  color: black;
+  transition: 1s;
+}
+.container-4 .button-submit:hover {
+  background: #232020;
+  color: white;
+  transition: all ease-in-out 1s;
+}
 
 footer {
   position: relative;
@@ -307,7 +317,7 @@ footer .social-tags:hover {
   }
 
   .container-1 .container-a {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 160px;
   }
 

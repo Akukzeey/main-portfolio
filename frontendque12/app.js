@@ -56,6 +56,6 @@ async function getIp(){
             getAPI(input)
         }
     )
-}
+};
 
 getIp()
