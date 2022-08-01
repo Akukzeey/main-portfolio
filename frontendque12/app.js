@@ -15,7 +15,7 @@ let latitude;
 let longitude;
 async function getAPI(ipAddress){
     try{
-        const loc=await axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=at_fVUjIiiDnf360zxtNxN280LdkBIlG&ipAddress=${ipAddress}`)
+        const loc=await axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=at_dcogew3jpA2ckzww9H5lLe16lgZd6&ipAddress=${ipAddress}`)
         let address=loc.data.ip
         ad.innerHTML=address
         city.innerHTML=loc.data.location.city

@@ -1,6 +1,6 @@
 .container {
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   height: 100vh;
 }
 
@@ -9,7 +9,7 @@ img {
 }
 
 .container1 {
-  background-image: url("images/pattern-bg.png");
+  background-image: url("../images/pattern-bg.png");
   min-height: 220px;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,11 +112,48 @@ img {
   color: gray;
 }
 
+.p-tag {
+  font-size: 1rem;
+}
+
 #map {
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+@media (max-width: 1200px) {
+  .container-d {
+    width: 69%;
+  }
+}
+@media (max-width: 990px) {
+  .container-d {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .container-d {
+    margin-top: 26px;
+    height: 338px;
+    width: 212px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .css-ip {
+    border-right: none;
+    height: 0;
+  }
+
+  .ip {
+    height: 84%;
+  }
+
+  .border {
+    margin: -7px 51px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
