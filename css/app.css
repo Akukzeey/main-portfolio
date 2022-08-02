@@ -153,7 +153,8 @@ body {
 .container-2 .about-text {
   text-align: justify;
   font-size: 1.2rem;
-  padding: 0rem 1.5rem;
+  padding: 0.2rem 1.5rem;
+  margin-bottom: 2rem;
 }
 .container-2 .p-tag-about-me {
   font-size: 20px;
@@ -161,6 +162,30 @@ body {
 }
 .container-2 .languages {
   color: red;
+}
+.container-2 .cv-container {
+  height: 40px;
+  width: 122px;
+  background: white;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.container-2 .cv-text {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+.container-2 .cv-container:hover {
+  background: black;
+  transition: all ease-in-out 1s;
+}
+.container-2 .cv-text:hover {
+  color: white;
+  transition: all ease-in-out 1s;
 }
 
 .container-3 {
